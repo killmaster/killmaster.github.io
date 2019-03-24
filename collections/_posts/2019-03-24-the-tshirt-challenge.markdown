@@ -34,15 +34,15 @@ We asked Joana, if she could blend two of them into a single image to see if OCR
 While us three were working on this, rumors started to spread about a radio frequency (88.5 MHz) transmitting numbers and a ZX Spectrum that was waiting for a 5 digit number input. Having a slight suspicion that they would be connected, Francisco started looking into it, writting down two full number sequences and recording some of the [stream](/images/uploads/radio.3gpp).
 He found that that the first number of each sequence started with a 5 digit number, followed by 79 numbers with 3 digits.
 
-![Notebook1](../../images/uploads/notebook1.jpg)
-![Notebook2](../../images/uploads/notebook2.jpg)
+![Notebook1](/images/uploads/notebook1.jpg)
+![Notebook2](/images/uploads/notebook2.jpg)
 
 Given that the ZX Spectrum's monitor had a modified Lost logo (that was designed by [Isa](https://pixels.camp/isacosta) as we later found out), Francisco tried one of the 5 digit numbers, followed by the number sequence from Lost (04,08,15,16,23,42). This actually worked and showed a screen with, again, more 3 digit numbers.
 
-![ZX 1](../../images/uploads/zx1.jpg)
-![ZX 2](../../images/uploads/zx2.jpg)
-![ZX 3](../../images/uploads/zx3.jpg)
-![ZX 4](../../images/uploads/zx4.jpg)
+![ZX 1](/images/uploads/zx1.jpg)
+![ZX 2](/images/uploads/zx2.jpg)
+![ZX 3](/images/uploads/zx3.jpg)
+![ZX 4](/images/uploads/zx4.jpg)
 
 These 4 screens were kind of a dead end at this point. Converting the numbers to ascii didn't return any meaningfull data, so we decided to go back to the shirts for more clues.
 
@@ -64,7 +64,7 @@ Finding that the bf var was all that was needed lightened our load significantly
 We got all four of the brainfuck string from all the t-shirts (will update the article with the list of strings we got), we just needed to find the order in which they should run and interpret it. The final result was the string "br41nfuck3d".
 We tried appending that to the base pixels.camp URL and got nothing, so next we tried to plug it to the end of pixels.camp/tee/ like the hash we previously found. 
 
-![br41nfuck3d](/../../images/uploads/br41nfuck3d.jpg)
+![br41nfuck3d](//images/uploads/br41nfuck3d.jpg)
 
 The __Agent ID__ also matches the 5 digit number from the Number Station.
 Now we knew for sure that the ZX Spectrum and Number Station was related to the T-Shirts, and we also had pretty good idea on what to do next.
@@ -101,19 +101,19 @@ We went straight into google maps (lets pretend we did this on a phone from the 
 After marking a couple of them we went out into the park again, and while we were walking toward one of the marked spots, I get a message from Nuno asking if we're done already. I share what we're doing and show where we're intending to go and he asks us if we know what a manhole is.
 At this point we're feeling dumb, and Nuno says what cracks it for us. Zoom, enhance.
 
-![Zoom, enhance](../../images/uploads/zoom,&#32;enhance.jpg)
+![Zoom, enhance](/images/uploads/zoom,&#32;enhance.jpg)
 
 There it was. The X that marked the spot.
 We zoomed there pretty quick, found the manhole. And looked in the bushes for anything at all.
 It took us pretty long to find it, but there it was.
 
-![the cache](../../images/uploads/cache.jpg)
+![the cache](/images/uploads/cache.jpg)
 
 Inside there were two handwritten hashcodes. Unlabeled. One of them had the T-Shirt Challenge badge, the other the T-Shirt Challenge Winner that was could be redeemed by one person only.
 
 Me and Tiago each chose one and he got lucky!
 
-![The end](../../images/uploads/end.jpg)
+![The end](/images/uploads/end.jpg)
 
 ~~Disregard the time, Tiago's phone ran out of battery and had to go to the venue to redeem the badge he picked.~~
 
