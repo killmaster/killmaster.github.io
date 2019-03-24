@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: killmaster/killmaster.github.io 
   branch: master
 
 media_folder: /images/uploads
