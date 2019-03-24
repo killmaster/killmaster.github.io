@@ -64,7 +64,7 @@ Finding that the bf var was all that was needed lightened our load significantly
 We got all four of the brainfuck string from all the t-shirts (will update the article with the list of strings we got), we just needed to find the order in which they should run and interpret it. The final result was the string "br41nfuck3d".
 We tried appending that to the base pixels.camp URL and got nothing, so next we tried to plug it to the end of pixels.camp/tee/ like the hash we previously found. 
 
-![br41nfuck3d](//images/uploads/br41nfuck3d.jpg)
+![br41nfuck3d](/images/uploads/br41nfuck3d.jpg)
 
 The __Agent ID__ also matches the 5 digit number from the Number Station.
 Now we knew for sure that the ZX Spectrum and Number Station was related to the T-Shirts, and we also had pretty good idea on what to do next.
