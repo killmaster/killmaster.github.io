@@ -39,7 +39,7 @@ He found that that the first number of each sequence started with a 5 digit numb
 
 Given that the ZX Spectrum's monitor had a modified Lost logo (that was designed by [Isa][7] as we later found out), Francisco tried one of the 5 digit numbers, followed by the number sequence from Lost (04,08,15,16,23,42). This actually worked and showed a screen with, again, more 3 digit numbers.
 
-![ZX Lost](/images/uploads/logo_splash.jpg)
+![ZX Lost](/images/uploads/lost_splash.jpg)
 ![ZX 1](/images/uploads/zx1.jpg)
 ![ZX 2](/images/uploads/zx2.jpg)
 ![ZX 3](/images/uploads/zx3.jpg)
