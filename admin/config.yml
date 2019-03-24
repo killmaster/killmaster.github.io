@@ -6,9 +6,11 @@ backend:
 media_folder: /images/uploads
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "_posts/"
+  - name: "posts"
+    label: "Posts"
+    folder: "_collections/_posts/"
+    editor:
+      preview: false
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
