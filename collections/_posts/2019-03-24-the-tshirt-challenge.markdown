@@ -6,12 +6,12 @@ category: pixelscamp pixels.camp challenges
 ---
 On [Pixels.Camp V3](https://pixels.camp/), following last editions example, there was a challenge regarding the event's t-shirts.
 
-This is the story of how we ([killmaster](https://pixels.camp/killmaster), [tiagoad](https://pixels.camp/tiagoad), [joanarijo](https://pixels.camp/joanarijo), and [bacitoto](https://pixels.camp/bacitoto)) cracked this edition's.
+This is the story of how we ([killmaster][1], [tiagoad][2], [joanarijo][3], and [bacitoto][4] cracked this edition's.
 
 ## Getting all the tshirts
 This was probably the easiest step of the whole process, albeit a bit time consuming (not the most time consuming, as you'll soon find out).
 During the goodies bag and shirt giveaway we looked into the pile to find out how many there were and all chose differently.
-Between us and our group of friends (shoutout to [afonsus1997](https://pixels.camp/afonsus1997) and [mjamado](https://pixels.camp/mjamado)) we managed to get 6 different shirts. Given that we noticed that they would work in pairs, we kindly asked the staff if we could check the entrance lobby, where the shirts were stored, if we could find the one's that were missing.
+Between us and our group of friends (shoutout to [afonsus1997][5] and [mjamado][6]) we managed to get 6 different shirts. Given that we noticed that they would work in pairs, we kindly asked the staff if we could check the entrance lobby, where the shirts were stored, if we could find the one's that were missing.
 
 By the start of the Code in the Dark event we had all 8 shirts.
 
@@ -37,8 +37,9 @@ He found that that the first number of each sequence started with a 5 digit numb
 ![Notebook1](/images/uploads/notebook1.jpg)
 ![Notebook2](/images/uploads/notebook2.jpg)
 
-Given that the ZX Spectrum's monitor had a modified Lost logo (that was designed by [Isa](https://pixels.camp/isacosta) as we later found out), Francisco tried one of the 5 digit numbers, followed by the number sequence from Lost (04,08,15,16,23,42). This actually worked and showed a screen with, again, more 3 digit numbers.
+Given that the ZX Spectrum's monitor had a modified Lost logo (that was designed by [Isa][7] as we later found out), Francisco tried one of the 5 digit numbers, followed by the number sequence from Lost (04,08,15,16,23,42). This actually worked and showed a screen with, again, more 3 digit numbers.
 
+![ZX Lost](/images/uploads/logo_splash.jpg)
 ![ZX 1](/images/uploads/zx1.jpg)
 ![ZX 2](/images/uploads/zx2.jpg)
 ![ZX 3](/images/uploads/zx3.jpg)
@@ -60,6 +61,29 @@ var a=document,e=a.createElement("canvas");a.body.appendChild(e);var f=[5,4,3],g
 
 When the game ended we were greeted with a string of brainfuck code. The same one we found when we looked at the shirts the first time.
 During the typing we also noticed that there was another string in the code, named _ts_, that had an hash appended to it. We plugged it into the pixels.camp URL and lo and behold, the same brainfuck.
+
+Brainfuck on each shirt:
+* THIS:
+    ```brainfuck
+    >+.<<+.>++++..>.<---.<<++.>>>+++++.---.
+    ```
+* CURL:
+    ```brainfuck
+    ++++++++++[>+++++++++++>++++++++++++>++
+    ```
+* NPM INSTALL:
+    ```brainfuck
+    <<<----.>>++++.<+.>---.<<---.>>>++.<+.
+    ```
+* SHELLS:
+    ```brainfuck
+    .<<----.>-----.>>----.<--.--.<<+.+++.>>
+    ```
+* MYSQL:
+    ```brainfuck
+    ++++++++>+++++<<<<-]>++.>>+++++.<.>----
+    ```
+
 Finding that the bf var was all that was needed lightened our load significantly because we could discard transcribing all 8 shirts.
 We got all four of the brainfuck string from all the t-shirts (will update the article with the list of strings we got), we just needed to find the order in which they should run and interpret it. The final result was the string "br41nfuck3d".
 We tried appending that to the base pixels.camp URL and got nothing, so next we tried to plug it to the end of pixels.camp/tee/ like the hash we previously found. 
@@ -77,7 +101,7 @@ Let's recap all the data we have so far.
 * A website with a 5 digit Agent ID and a huge amount of 3 digit numbers
 * The 5 digit numbers from the number station are the same as the numbers we saw on the website so far
 
-The next part was oddly and satisfyingly simple. I had refreshed my memory on number stations and one-time pads a couple of weeks earlier (thank you [Quizmaster](https://pixels.camp/carlosefr)), so it seemed pretty clear that the site was the pre-shared key. So the next step should be XORing the message from the Number Station against the key. The result was:
+The next part was oddly and satisfyingly simple. I had refreshed my memory on number stations and one-time pads a couple of weeks earlier (thank you [Quizmaster][8]), so it seemed pretty clear that the site was the pre-shared key. So the next step should be XORing the message from the Number Station against the key. The result was:
 
 >You have 108 minutes left to type your ID and these numbers: 04 08 15 16 23 42.
 
@@ -94,7 +118,7 @@ The time was 2AM and there were 4 people walking around in the middle of what wa
 We roamed around inside looking for something similar to a manhole for about an hour and nothing. Seemed like a dead end.
 Checking Slack to see if someone had finished the challenge we noticed Isa was awake distributing Night Owl and Movie Night badges, so I talked to her. 
 We told her that we followed all the steps, got to the pastebin, and that we even done something dumb and went to the middle of the park to find something.
-She laughed and said we were on the right track from the start, and we soon got a message from [cdeath](https://pixels.camp/cdeath) who said, and I quote:
+She laughed and said we were on the right track from the start, and we soon got a message from [cdeath][9] who said, and I quote:
 >satellite view might help
 
 We went straight into google maps (lets pretend we did this on a phone from the beginning), and started looking for manholes and things that looked like manholes.
@@ -119,8 +143,28 @@ Me and Tiago each chose one and he got lucky!
 
 The End.
 
-
 ## Thanks
 
 We would like to thank everyone involved on building this puzzle.
 You guys are awesome!
+
+
+[1]: https://pixels.camp/killmaster
+[2]: https://pixels.camp/tiagoad
+[3]: https://pixels.camp/joanarijo
+[4]: https://pixels.camp/bacitoto
+[5]: https://pixels.camp/afonsus1997
+[6]: https://pixels.camp/mjamado
+[7]: https://pixels.camp/isacosta
+[8]: https://pixels.camp/carlosefr
+[9]: https://pixels.camp/cdeath
+
+## More info
+
+The full radio stream can be found [here](/images/uploads/eightyeightdotfive.egpp) <sup>[10]</sup>. Didn't include it in the story because it wasn't the one used by our team, but people might find it interesting.
+
+
+## Credits
+
+[10]: https://pixels.camp/miguelpduarte
+[10] Miguel Duarte - for the brainfuck code, the full radio stream, and the picture of the Lost Pix3l
