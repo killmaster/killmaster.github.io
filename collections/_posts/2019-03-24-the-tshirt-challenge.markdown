@@ -85,8 +85,11 @@ Brainfuck on each shirt:
     ```
 
 Finding that the bf var was all that was needed lightened our load significantly because we could discard transcribing all 8 shirts.
-We got all four of the brainfuck string from all the t-shirts (will update the article with the list of strings we got), we just needed to find the order in which they should run and interpret it. The final result was the string "br41nfuck3d".
-We tried appending that to the base pixels.camp URL and got nothing, so next we tried to plug it to the end of pixels.camp/tee/ like the hash we previously found. 
+We got all five brainfuck strings from the t-shirts and after a bit of trial-and-error we found the correct way to join them together:
+
+```++++++++++[>+++++++++++>++++++++++++>++++++++++>+++++<<<<-]>++.>>+++++.<.>----.<<----.>-----.>>----.<--.--.<<+.+++.>>>+.<<+.>++++..>.<---.<<++.>>>+++++.---.<<<----.>>++++.<+.>---.<<---.>>>++.<+.```
+
+Running this program output the string "pixels.camp/tee/br41nfuck3d".
 
 ![br41nfuck3d](/images/uploads/br41nfuck3d.jpg)
 
