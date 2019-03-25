@@ -5,6 +5,22 @@ date: 2019-03-24 17:09:00 +0000
 category: pixelscamp pixels.camp challenges
 ---
 
+<style type="text/css">
+    .grid-outer {
+        width: 100%;
+        display: inline-block;
+        clear: both;
+    }
+    .grid-inner {
+        width: 50%;
+        float: left;
+    }
+    .grid-inner img {
+        display: block;
+        padding: 2px;
+    }
+</style>
+
 On [Pixels.Camp V3](https://pixels.camp/), following last edition's example, there was a challenge hidden the event t-shirt.
 
 This is the story of how we ([killmaster][1], [tiagoad][2], [joanarijo][3], and [bacitoto][4]) cracked this edition's puzzle.
@@ -16,16 +32,24 @@ Between us and our group of friends (shoutout to [afonsus1997][5] and [mjamado][
 
 By the start of the Code in the Dark event we had all 8 shirts.
 
+{::options parse_block_html="true" /}
+<div class="grid-outer">
+<div class="grid-inner">
 ![sweet dreams are made of **this** inside](/images/uploads/this1.jpg)
-![sweet dreams are made of **this** outside](/images/uploads/this2.jpg)
 ![are you gonna be my **curl** inside](/images/uploads/curl1.jpg)
-![are you gonna be my **curl** outside](/images/uploads/curl2.jpg)
 ![wake me up when **npm install** ends inside](/images/uploads/npm1.jpg)
-![wake me up when **npm install** ends outside](/images/uploads/npm2.jpg)
 ![**shells** like teen spirit inside](/images/uploads/shells1.jpg)
-![**shells** like teen spirit outside](/images/uploads/shells2.jpg)
 ![take *mysql* away inside](/images/uploads/mysql1.jpg)
+</div>
+
+<div class="grid-inner">
+![sweet dreams are made of **this** outside](/images/uploads/this2.jpg)
+![are you gonna be my **curl** outside](/images/uploads/curl2.jpg)
+![wake me up when **npm install** ends outside](/images/uploads/npm2.jpg)
+![**shells** like teen spirit outside](/images/uploads/shells2.jpg)
 ![take **mysql** away outside](/images/uploads/mysql2.jpg)
+</div>
+</div>
 
 ## Finding out the t-shirts' secrets and the spectrum part
 By now, just looking at the content on the shirts, we had a pretty good idea of what we'd have to do.
@@ -41,10 +65,17 @@ He found that that the first number of each sequence started with a 5 digit numb
 Given that the ZX Spectrum's monitor had a modified Lost logo (that was designed by [Isa][7] as we later found out), Francisco tried one of the 5 digit numbers, followed by the number sequence from Lost (04,08,15,16,23,42). This actually worked and showed a screen with, again, more 3 digit numbers.
 
 ![ZX Lost](/images/uploads/lost_splash.jpg)
+
+<div class="grid-outer">
+<div class="grid-inner">
 ![ZX 1](/images/uploads/zx1.jpg)
 ![ZX 2](/images/uploads/zx2.jpg)
+</div>
+<div class="grid-inner">
 ![ZX 3](/images/uploads/zx3.jpg)
 ![ZX 4](/images/uploads/zx4.jpg)
+</div>
+</div>
 
 These 4 screens were kind of a dead end at this point. Converting the numbers to ascii didn't return any meaningfull data, so we decided to go back to the shirts for more clues.
 
