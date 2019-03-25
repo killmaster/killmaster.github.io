@@ -24,9 +24,11 @@ github_username:  killmaster
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: broccolini/swiss
+theme_color: yellow
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 collections_dir: collections
 collections:
