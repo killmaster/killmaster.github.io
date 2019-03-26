@@ -1,14 +1,14 @@
 backend:
-  name: github
-  repo: killmaster/killmaster.github.io 
+  name: git-gateway
   branch: master
+  publishing_mode: editorial_workflow
 
 media_folder: /images/uploads
 
 collections:
   - name: "posts"
     label: "Posts"
-    folder: "_collections/_posts/"
+    folder: "collections/_posts/"
     editor:
       preview: false
     create: true
