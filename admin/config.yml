@@ -1,4 +1,4 @@
-ackend:
+backend:
   name: git-gateway
 
 publishing_mode: editorial_workflow
