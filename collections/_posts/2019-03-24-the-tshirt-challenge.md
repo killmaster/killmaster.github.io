@@ -30,7 +30,7 @@ This was probably the easiest step of the whole process, albeit a bit time consu
 During the goodie bag and shirt giveaway we looked into the pile to find out how many there were and all chose differently.
 Between us and our group of friends (shoutout to [afonsus1997][5] and [mjamado][6]) we managed to get 6 different shirts. Given that we noticed that they would work in pairs, we kindly asked the staff if we could check the entrance lobby, where the shirts were stored, if we could find the ones that were missing.
 
-By the start of the Code in the Dark event we had all 8 shirts.
+By the start of the Code in the Dark event we had all 10 shirts.
 
 {::options parse_block_html="true" /}
 <div class="grid-outer">
@@ -121,7 +121,7 @@ Brainfuck on each shirt:
     ++++++++>+++++<<<<-]>++.>>+++++.<.>----
     ```
 
-Finding that the bf var was all that was needed lightened our load significantly because we could discard transcribing all 8 shirts.
+Finding that the bf var was all that was needed lightened our load significantly because we could discard transcribing all 10 shirts.
 We got all five brainfuck strings from the t-shirts and after a bit of trial-and-error we found the correct way to join them together:
 
 ```++++++++++[>+++++++++++>++++++++++++>++++++++++>+++++<<<<-]>++.>>+++++.<.>----.<<----.>-----.>>----.<--.--.<<+.+++.>>>+.<<+.>++++..>.<---.<<++.>>>+++++.---.<<<----.>>++++.<+.>---.<<---.>>>++.<+.```
