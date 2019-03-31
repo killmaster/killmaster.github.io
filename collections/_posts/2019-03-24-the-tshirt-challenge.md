@@ -56,7 +56,7 @@ By now, just looking at the content on the shirts, we had a pretty good idea of 
 Inspecting a little closer, Tiago and I noticed that there was a piece of the code that looked strangely like [brainfuck](https://en.wikipedia.org/wiki/Brainfuck), but for some reason decided to find out what the code actually did.
 We asked Joana if she could blend two of them into a single image, to see if OCR actually worked. It didn't, so Tiago started handtyping the first merged pair while I started working on a second one that wasn't yet completelly merged.
 
-While us three were working on this, rumors started to spread about a radio frequency (88.5 MHz) transmitting numbers and a ZX Spectrum that was waiting for a 5 digit number input. Having a slight suspicion that they would be connected, Francisco started looking into it, writting down two full number sequences and recording some of the [stream](/images/uploads/radio.3gpp).
+While us three were working on this, rumors started to spread about a radio frequency (88.5 MHz) transmitting numbers and a ZX Spectrum that was waiting for a 5 digit number input (made by [Celso][11], you can find his awesome write-up [here](https://blog.pixels.camp/writing-a-zx-spectrum-game-6ffff2e5f10f)). Having a slight suspicion that they would be connected, Francisco started looking into it, writting down two full number sequences and recording some of the [stream](/images/uploads/radio.3gpp).
 He found that that the first number of each sequence started with a 5 digit number, followed by 79 numbers with 3 digits.
 
 ![Notebook1](/images/uploads/notebook1.jpg)
@@ -198,6 +198,7 @@ You guys are awesome!
 [7]: https://pixels.camp/isacosta
 [8]: https://pixels.camp/carlosefr
 [9]: https://pixels.camp/cdeath
+[11]: https://pixels.camp/celso
 
 ## More info
 
