@@ -131,7 +131,7 @@ Running this program output the string "pixels.camp/tee/br41nfuck3d".
 ![br41nfuck3d](/images/uploads/br41nfuck3d.jpg)
 
 The __Agent ID__ also matches the 5 digit number from the Number Station.
-Now we knew for sure that the ZX Spectrum and Number Station was related to the T-Shirts, and we also had pretty good idea on what to do next.
+Now we knew for sure that the ZX Spectrum and Number Station were related to the T-Shirts, and we also had pretty good idea on what to do next.
 
 ## Decoding the numbers
 
@@ -146,7 +146,7 @@ The next part was oddly and satisfyingly simple. I had refreshed my memory on nu
 
 >You have 108 minutes left to type your ID and these numbers: 04 08 15 16 23 42.
 
-Working on the first try, and telling us that we already have the data we needed from the Spectrum. How nice!
+Working on the first try, and telling us that we already have the data we need from the Spectrum. How nice!
 
 We decoded the numbers from the Agent ID we got from the Spectrum with the remaining key and got a link to a pastebin that said:
 
@@ -208,4 +208,4 @@ The full radio stream can be found [here](/images/uploads/eightyeightdotfive.egp
 ## Credits
 
 [10]: https://pixels.camp/miguelpduarte
-[10] Miguel Duarte - for the brainfuck code, the full radio stream, and the picture of the Lost Pix3l
+[10] Miguel Duarte - for the brainfuck code, the full radio stream, and the picture of the Lost Pix3ls
