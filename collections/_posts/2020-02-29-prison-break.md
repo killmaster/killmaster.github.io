@@ -21,7 +21,7 @@ The answer then should be [tinyurl.com/QOPDEQE](https://tinyurl.com/QOPDEQE) tha
 
 ## The signal
 
-On that link we get a wave file we a note.
+On that link we get a wave file with the following note.
 
 > May be somewhat slow to vanquish but, in the end, well worth hearing with your own eyes.
 
@@ -104,8 +104,7 @@ You'll have to say please if you want to get something from me.
 And say it loud, so I can hear you. 
 ```
 
-Oh man, it's pinging bacon all over again! But how should I say please? 
-It was [frm](https://pixels.camp/frm) that actually made it clear what the answer was. One of the first things he did was check what headers were in the response. There was an **X-Server-Mood** header set to **passive-aggressive**.
+Oh man, it's pinging bacon all over again! But how should I say please?  It was [frm](https://pixels.camp/frm) that actually made it clear what the answer was. One of the first things he did was check what headers were in the response. There was an **X-Server-Mood** header set to **passive-aggressive**.
 
 This made me open Postman and check it out.
 
@@ -117,8 +116,7 @@ So I tried adding headers to the request. Maybe X-Client-Say: PLEASE? or just Sa
 
 I still have this link marked as BAD STEP! for all the time and effort it took. It took so long to solve and we tried so many things that [mjamado](https://pixels.camp/mjamado) said: ![I think @killmaster was delirious yesterday](/images/uploads/prison_break/delirar.JPG "I think @killmaster was delirious yesterday")
 
-At first I thought that the keywords were **minority reports**, so I checked what the definition was, according to Philip K. Dick's book and according to the movies, and thought that I needed to get the least ocurring bits of each column and read the resulting binary. I then tried to make sense of it line by line instead of as a whole.
-Then I thought, maybe it's the **perfect democracy** part that matters, so this might be a list of votes. Maybe if I convert each line to hex to get an hash I'll see something. I did not. What if the hashes are actually the right step? What if I need to break one to see something? So I actually started cracking what I thought was a Jenkins hash. I think you get why they thought I was delirious.
+At first I thought that the keywords were **minority reports**, so I checked what the definition was, according to Philip K. Dick's book and according to the movies, and thought that I needed to get the least ocurring bits of each column and read the resulting binary. I then tried to make sense of it line by line instead of as a whole. Then I thought, maybe it's the **perfect democracy** part that matters, so this might be a list of votes. Maybe if I convert each line to hex to get an hash I'll see something. I did not. What if the hashes are actually the right step? What if I need to break one to see something? So I actually started cracking what I thought was a Jenkins hash. I think you get why they thought I was delirious.
 
 Morning came, and went, and [frm](https://pixels.camp/frm) actually made a visualization of the wall of binary. ![Visualizing Democracy](/images/uploads/prison_break/democracy_visual.png "Visualizing Democracy")
 
