@@ -120,7 +120,9 @@ I still have this link marked as BAD STEP! for all the time and effort it took. 
 
 At first I thought that the keywords were **minority reports**, so I checked what the definition was, according to Philip K. Dick's book and according to the movies, and thought that I needed to get the least ocurring bits of each column and read the resulting binary. I then tried to make sense of it line by line instead of as a whole. Then I thought, maybe it's the **perfect democracy** part that matters, so this might be a list of votes. Maybe if I convert each line to hex to get an hash I'll see something. I did not. What if the hashes are actually the right step? What if I need to break one to see something? So I actually started cracking what I thought was a Jenkins hash. I think you get why they thought I was delirious.
 
-Morning came, and went, and [frm](https://pixels.camp/frm) actually made a visualization of the wall of binary. ![Visualizing Democracy](/images/uploads/prison_break/democracy_visual.png "Visualizing Democracy")
+Morning came, and went, and [frm](https://pixels.camp/frm) actually made a visualization of the wall of binary. 
+
+![Visualizing Democracy](/images/uploads/democracy_visual.png "Visualizing Democracy")
 
 "There's some neat patterns" I thought, "must be a coincidence". Remember kids, sleep deprivation makes you dumb.
 
