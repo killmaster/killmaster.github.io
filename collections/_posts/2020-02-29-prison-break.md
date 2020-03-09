@@ -191,6 +191,14 @@ def democracy():
 democracy()
 ```
 
+The prettiest solution in my opinion, done the pythonic way, was made by [rcarmo](https://pixels.camp/rcarmo), and looks like this:
+
+```python
+buffer = open(“democracy.txt”).read()
+encs = [buffer[i*3:(i+1)*3] for i in range(len(buffer)/3)]
+bin = ‘’.join([‘0’ if e.count(‘0’) > e.count(‘1’) else ‘1’ for e in encs])
+```
+
 I then plugged the result to an online binary to ascii converter like [this one](https://www.rapidtables.com/convert/number/binary-to-ascii.html) and got the answer.
 
 ```
