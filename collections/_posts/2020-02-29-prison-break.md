@@ -137,7 +137,9 @@ So I tried adding headers to the request. Maybe X-Client-Say: PLEASE? or just Sa
 
 ## Democracy
 
-I still have this link marked as BAD STEP! for all the time and effort it took. It took so long to solve and we tried so many things that [mjamado](https://pixels.camp/mjamado) said: ![I think @killmaster was delirious yesterday](/images/uploads/prison_break/delirar.JPG "I think @killmaster was delirious yesterday")
+I still have this link marked as BAD STEP! for all the time and effort it took. It took so long to solve and we tried so many things that [mjamado](https://pixels.camp/mjamado) said: 
+
+![I think @killmaster was delirious yesterday](/images/uploads/delirar.jpg "I think @killmaster was delirious yesterday")
 
 At first I thought that the keywords were **minority reports**, so I checked what the definition was, according to Philip K. Dick's book and according to the movies, and thought that I needed to get the least ocurring bits of each column and read the resulting binary. I then tried to make sense of it line by line instead of as a whole. Then I thought, maybe it's the **perfect democracy** part that matters, so this might be a list of votes. Maybe if I convert each line to hex to get an hash I'll see something. I did not. What if the hashes are actually the right step? What if I need to break one to see something? So I actually started cracking what I thought was a Jenkins hash. I think you get why they thought I was delirious.
 
@@ -149,7 +151,11 @@ Morning came, and went, and [frm](https://pixels.camp/frm) actually made a visua
 
 Fernando was right, the patterns were the real clue. 
 
-The Quizmaster then said: ![Clue 1](/images/uploads/prison_break/clue1.JPG "Clue 1") ![Clue 2](/images/uploads/prison_break/clue2.JPG "Clue 2")
+The Quizmaster then said: 
+
+![Clue 1](/images/uploads/clue1.jpg "Clue 1")
+
+![Clue 2](/images/uploads/clue2.jpg "Clue 2")
 
 A little after the last clue, it clicked for Fernando. [Majority logic decoding](https://en.wikipedia.org/wiki/Majority_logic_decoding). It would explain the pattern fits the hint. He tried for the first line and got "Cong".
 
