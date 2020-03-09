@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "The T-shirt challenge"
-date: 2019-03-24 17:09:00 +0000
+title: The T-shirt challenge
+date: 2020-03-09T00:00:00.000Z
 category: pixelscamp pixels.camp challenges
 ---
 
