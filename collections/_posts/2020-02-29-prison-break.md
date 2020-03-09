@@ -17,6 +17,8 @@ The numbers don't translate directly to any human readable ascii so my first tho
 
 The correct answer wasn't the Polybius square, but [Tap Code](https://en.wikipedia.org/wiki/Tap_code), as the [Quizmaster](https://pixels.camp/carlosef) pointed out later.
 
+![Tap Code](/images/uploads/image.png "Tap Code")
+
 So I went to <https://www.dcode.fr/polybius-cipher> and tested the first four pairs with an automatic decryption. And it worked. The output showed me that for the basic form of the latin alphabet, we get the word TINY. I then decoded the last 7 pairs with the basic form as a key and got the word QOPDEQE.
 
 The answer then should be [tinyurl.com/QOPDEQE](https://tinyurl.com/QOPDEQE) that redirected us to [step 2](https://onedrive.live.com/?authkey=%21ABnW2cvRjtv9mVA&id=9E5220A782867151%21434&cid=9E5220A782867151)
