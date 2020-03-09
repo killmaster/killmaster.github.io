@@ -191,7 +191,7 @@ def democracy():
 democracy()
 ```
 
-The prettiest solution in my opinion, done the pythonic way, was done by [rcarmo](https://pixels.camp/rcarmo) and looks like this:
+The prettiest solution in my opinion, done the pythonic way, was made by [rcarmo](https://pixels.camp/rcarmo), and looks like this:
 
 ```python
 buffer = open(“democracy.txt”).read()
