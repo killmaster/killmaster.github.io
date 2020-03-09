@@ -43,7 +43,7 @@ Instead of following what the article suggested (in all fairness I only managed 
 
 This gives us [bit.ly/2uenB9w](https://bit.ly/2uenB9w) and we get to [step 3](https://photos.google.com/share/AF1QipOTUaplHwAecR0XK1nv1njNBN23vQ4tv273zYQJOkt52gZ7I5sue6gA7lvUu-mJrA/photo/AF1QipPfQ-3-j_F1iWI_onIkapU6Wqmt9_P-pS2Zd2yq?key=dzA5Y28yUmdDMkFIbkRzU2dUa0tpYmVpNlp4Q01R).
 
-The Quizmaster also pointed out afterwards that if we checked the wave file header, we would've got the answer easily.
+The Quizmaster also pointed out afterwards that if we checked the wave file header, we would've got the answer easily. 
 
 ```
 RIFFXR WAVEfmt
@@ -52,7 +52,9 @@ INFOIPRT
 ``G3OQD;1
 ```
 
-Had we googled `G3OQD;1` we would have been pointed out to SSTV.
+Had we googled `G3OQD;1` we would have been pointed out to SSTV. [](https://pixels.camp/mjamado)
+
+[mjamado](https://pixels.camp/mjamado) actually noticed this at the time, but I didn't notice it while during the challenge, nor while writing this. Sorry.
 
 Also, 
 
