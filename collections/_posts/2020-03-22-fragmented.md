@@ -22,6 +22,7 @@ Luckily some people actually remember what to do with images from previous years
 
 
 The hidden clue here is:
+
 `To go deep into the tupperware party underground, you must first obtain its admission key. Then go find the old Ed Eights and give it to him when asked.`
 
 Seems like two clues actually. One related to The Party, another one related to what we do with what we find.
@@ -42,7 +43,9 @@ Hexdump shows that the file is terminated where it should, so it has to be somet
 Maybe if we run it through steghide?
 
 `steghide extract -sf party.jpg` prompts for a passphrase.
+
 We try Setec Astronomy.
+
 We get `underground`.
 
 Later, while checking my notes, I noticed that the answer was pretty obvious. As "Setec Astronomy" is an anagram for "too many secrets", so "Ed Eights" is an anagram for "steghide".
