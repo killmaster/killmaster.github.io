@@ -30,3 +30,4 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gem "jekyll-swiss"
 gem "jekyll-remote-theme"
+gem "minimal-mistakes-jekyll"

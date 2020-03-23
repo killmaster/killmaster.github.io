@@ -25,8 +25,10 @@ github_username:  killmaster
 # Build settings
 markdown: kramdown
 # remote_theme: broccolini/swiss
-theme: jekyll-swiss
-theme_color: yellow
+# theme: jekyll-swiss
+theme: minimal-mistakes-jekyll
+
+# theme_color: yellow
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
