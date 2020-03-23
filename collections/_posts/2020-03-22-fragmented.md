@@ -2,6 +2,12 @@
 layout: post
 title: Fragmented
 date: 2020-03-23T00:00:00.000Z
+categories:
+    - pixelscamp
+    - pixels.camp
+    - quizshow
+    - quiz
+    - challenges
 ---
 
 The last challenge of this year's Quizshow was a another treasure hunt, aptly named Fragmented.

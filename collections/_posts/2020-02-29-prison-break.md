@@ -2,6 +2,12 @@
 layout: post
 title: Prison Break
 date: 2020-03-03T00:00:52.712Z
+categories:
+    - pixelscamp
+    - pixels.camp
+    - quizshow
+    - quiz
+    - challenges
 ---
 A new year, a new ~~bacon throwing competition~~ Quizshow Treasure Hunt!
 
