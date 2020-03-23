@@ -21,7 +21,8 @@ Luckily some people actually remember what to do with images from previous years
 ![Hidden text](/images/uploads/fragmented/the&#32;hidden&#32;text.png "Hidden text")
 
 
-The hidden clue here is `To go deep into the tupperware party underground, you must first obtain its admission key. Then go find the old Ed Eights and give it to him when asked.`
+The hidden clue here is:
+`To go deep into the tupperware party underground, you must first obtain its admission key. Then go find the old Ed Eights and give it to him when asked.`
 
 Seems like two clues actually. One related to The Party, another one related to what we do with what we find.
 
@@ -39,13 +40,17 @@ Checking for a solver on Google we get to [this](https://keelyhill.github.io/tup
 This file is also the only one that's a *jpg* file. Maybe there's something hidden in the file like in Prison Break?
 Hexdump shows that the file is terminated where it should, so it has to be something else.
 Maybe if we run it through steghide?
-`steghide extract -sf party.jpg` prompts for a passphrase. We try Setec Astronomy. We get `underground`.
+
+`steghide extract -sf party.jpg` prompts for a passphrase.
+We try Setec Astronomy.
+We get `underground`.
 
 Later, while checking my notes, I noticed that the answer was pretty obvious. As "Setec Astronomy" is an anagram for "too many secrets", so "Ed Eights" is an anagram for "steghide".
 
 
 Running `file underground` shows `underground: DOS/MBR boot sector, code offset 0x3c+2, OEM-ID "MSDOS5.0", root entries 224, sectors 2880 (volumes <=32 MB), sectors/FAT 9, sectors/track 18, serial number 0x480c2594, label: "UNDERGROUND", FAT (12 bit), followed by FAT`. Seems to be a floppy image.
 If we hexdump it we see it has an *arj* file with a `report.txt` in it.
+
 `arj e -g? underground` asks for a password too and this time it's not "Setec Astronomy". We have no clues unused, so we carry on.
 
 ## The Pattern
