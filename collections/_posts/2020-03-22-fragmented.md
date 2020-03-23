@@ -72,7 +72,7 @@ The whole report is just a huge pile of [Brainfuck](https://en.wikipedia.org/wik
 
 This was the biggest time sink and it was mainly my fault for dismissing the spiral from the image.
 
-To get the report.txt to run, we had to read it properly. And the proper way to read it was in a spiral, clockwise, from the top-left to the center.
+To get the `report.txt` to run, we had to read it properly. And the proper way to read it was in a spiral, clockwise, from the top-left to the center.
 
 I found [this code](https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/) on Google, used it to read the report, and got the reordered code (I've copied it to the end of this post).
 
