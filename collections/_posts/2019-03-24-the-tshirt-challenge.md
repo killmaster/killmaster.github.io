@@ -2,7 +2,10 @@
 layout: post
 title: "The T-shirt challenge"
 date: 2019-03-24 17:09:00 +0000
-category: pixelscamp pixels.camp challenges
+category: 
+    - pixelscamp 
+    - pixels.camp 
+    - challenges
 ---
 
 <style type="text/css">

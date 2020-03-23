@@ -25,17 +25,43 @@ github_username:  killmaster
 # Build settings
 markdown: kramdown
 # remote_theme: broccolini/swiss
-theme: jekyll-swiss
-theme_color: yellow
+theme: jekyll-whiteglass
+# theme_color: yellow
 plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-sitemap
+  # - jekyll-feed
+  # - jekyll-remote-theme
 
-collections_dir: collections
-collections:
-  posts:
-    output: true
-    permalink: :year/:month/:day/:title
+permalink: /:year/:month/:day/:title/
+paginate_path: /posts/:num/
+paginate: 5
+
+# Markdown settings
+kramdown:
+  auto_ids: false
+  enable_coderay: false
+  entity_output: as_char
+  footnote_nr: 1
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  toc_levels: 1..6
+
+# jekyll-archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: category_archives
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+# collections_dir: collections
+# collections:
+#   posts:
+#     output: true
+#     permalink: :year/:month/:day/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
