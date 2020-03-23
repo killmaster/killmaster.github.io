@@ -51,9 +51,7 @@ We get `underground`.
 Later, while checking my notes, I noticed that the answer was pretty obvious. As "Setec Astronomy" is an anagram for "too many secrets", so "Ed Eights" is an anagram for "steghide".
 
 
-Running `file underground` shows `underground: DOS/MBR boot sector, code offset 0x3c+2, OEM-ID "MSDOS5.0", root entries 224, sectors 2880 (volumes <=32 MB), sectors/FAT 9, sectors/track 18, serial number 0x480c2594, label: "UNDERGROUND", FAT (12 bit), followed by FAT`. 
-
-Seems to be a floppy image.
+Running `file underground` shows `underground: DOS/MBR boot sector, code offset 0x3c+2, OEM-ID "MSDOS5.0", root entries 224, sectors 2880 (volumes <=32 MB), sectors/FAT 9, sectors/track 18, serial number 0x480c2594, label: "UNDERGROUND", FAT (12 bit), followed by FAT`. Seems to be a floppy image.
 If we hexdump it we see it has an *arj* file with a `report.txt` in it.
 
 `arj e -g? underground` asks for a password too and this time it's not "Setec Astronomy". We have no clues unused, so we carry on.
