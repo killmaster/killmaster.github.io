@@ -2,6 +2,11 @@
 layout: post
 title: Pixels.Camp Forever mini-challenge
 date: 2020-12-23T21:31:19.708Z
+category: 
+    - pixelscamp 
+    - pixels.camp 
+    - challenges
+    - forever
 ---
 As most of you know, this year's [Pixels.Camp](https://pixels.camp) was cancelled due to the COVID-19 pandemic, with no future date planned yet.
 
